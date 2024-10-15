@@ -108,7 +108,7 @@ social:
 highlight_name: true
 ---
 
-In June 2026, I will be completing my Bachelor's/Master's degree in Electrical and Computer Engineering (ECE) at Drexel University as part of the BS/MS program. My academic focus is on advancing my knowledge in areas such as robotics, optics, and embedded systems, and I am eager to pursue a PhD in one of these fields to further develop my expertise.
+In June 2026, I will be completing my Bachelor's/Master's degree in Electrical Engineering (ECE) at Drexel University as part of the BS/MS program. My academic focus is on advancing my knowledge in areas such as robotics, optics, and embedded systems, and I am eager to pursue a PhD in one of these fields to further develop my expertise.
 
 Currently, I am engaged in on-campus research, where I am contributing to projects that explore the integration of optics and signal processing for sensing applications. This complements my prior experience at Lockheed Martin, where I worked on cutting-edge engineering solutions, gaining hands-on expertise in systems engineering and applied research and development.
 
