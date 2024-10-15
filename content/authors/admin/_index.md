@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Ilaria Colazzo
+title: Santiago Sosa
 
 # # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Ilaria
-last_name: Colazzo
+first_name: Santiago
+last_name: Sosa
 
 # Status emoji
 status:
@@ -17,36 +17,31 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Lecturer in Pure Mathematics
+role: BS/MS Electrical Engineering Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Leeds 
-    url: https://www.leeds.ac.uk/
+  - name: Drexel University 
+    url: https://drexel.edu/engineering/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interest focuses on studying algebraic structures associated with discrete versions of some equations in mathematical physics, such as the Yang-Baxter equation and the Pentagon equation. I am mainly interested in algebraic structures such as skew braces, trusses and generalisations that organise, classify and help to find solutions of the Yang-Baxter equation and the Pentagon equation with given properties.
+bio: My research interests focus on exploring novel optical materials and photonic systems for sensing applications, particularly in the context of holographic and liquid crystal technologies. I am primarily interested in the design and fabrication of Holographic Polymer Dispersed Liquid Crystals (H-PDLCs) and their use in enhancing light modulation, diffraction, and chemical trace detection. My work aims to investigate and optimize Bragg grating structures within H-PDLCs to create innovative solutions for noninvasive sensing platforms and spectroscopy, addressing challenges in fields like biomedical engineering and environmental monitoring.
 
 # Interests to show in About widget
 interests:
-  - Set–theoretical solutions of the Yang–Baxter equation
-  - Skew braces, trusses and generalisations
-  - Regular subgroups of the holomorph
-  - Hopf–Galois extensions
-  - Set–theoretical solutions of the pentagon equation
+  - Electro-optics
+  - Free Space Optical Communication
+  - Nanotechnology
 
 # Education to show in About widget
 education:
   courses:
-    - course:  Ph.D., Mathematics and Informatics
-      institution: University of Salento, Lecce, Italy
-      year: 2017
-    - course: M.S., Mathematics
-      institution: University of Salento, Lecce, Italy
-      year: 2012
-    - course: B.S., Mathematics
-      institution: University of Salento, Lecce, Italy
-      year: 2009
+    - course: M.S., Electrical Engineering
+      institution: Drexel University, Philadelphia, USA
+      year: Expected 2026
+    - course: B.S., Electrical Engineering
+      institution: Drexel University, Philadelphia, USA
+      year: Expected 2026
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -96,12 +91,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.it/citations?user=upy1OLEAAAAJ&hl=it
+  # - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    # icon_pack: fas
+    # link: https://scholar.google.it/citations?user=upy1OLEAAAAJ&hl=it
   - icon: github
     icon_pack: fab
-    link: https://github.com/ilafly
+    link: https://github.com/SantiagoxSosa
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -113,13 +108,8 @@ social:
 highlight_name: true
 ---
 
-In June 2024, I will begin my new role as a Lecturer in Pure Mathematics at the University of Leeds in the UK.
+In June 2026, I will be completing my Bachelor's/Master's degree in Electrical and Computer Engineering (ECE) at Drexel University as part of the BS/MS program. My academic focus is on advancing my knowledge in areas such as robotics, optics, and embedded systems, and I am eager to pursue a PhD in one of these fields to further develop my expertise.
 
-Currently, I am a postdoctoral research fellow at the University of Exeter (UK). I am working on the EPSRC project: Hopf-Galois Theory and Skew Braces (PI: Prof. N. Byott).
+Currently, I am engaged in on-campus research, where I am contributing to projects that explore the integration of optics and signal processing for sensing applications. This complements my prior experience at Lockheed Martin, where I worked on cutting-edge engineering solutions, gaining hands-on expertise in systems engineering and applied research and development.
 
-Previously, I was a postdoctoral researcher at the Vrije Universiteit Brussel (VUB) in the group ALGB: Algebra, Incidence Geometry (Group and Semigroup Theory) headed by Prof. E. Jespers.
-
-I completed my PhD in 2017 at the University of Salento under the supervision of Prof. F. Catino. During my PhD, I was a visiting PhD student at the University of Warsaw in the group of Algebra and Number Theory headed by Prof. J. Okniński.
-
-My PhD thesis focuses on studying a novel algebraic structure, namely semi-brace, and its connection with set-theoretical solutions of the Yang-Baxter equation.
-{style="text-align: justify;"}
+In the future, I aim to deepen my understanding of autonomous systems, vision-based technologies, and nanophotonics, with the goal of innovating within the realm of intelligent robotics and optical sensor design. My ambition is to develop groundbreaking technologies that merge these fields to solve real-world challenges in industries such as healthcare, defense, and environmental monitoring.
