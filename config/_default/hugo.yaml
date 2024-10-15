@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Ilaria Colazzo # Website name
-baseURL: 'https://ilafly.github.io.' # Website URL
+title: Santiago Sosa # Website name
+baseURL: 'https://santiagoxsosa.github.io.' # Website URL
 
 ############################
 ## LANGUAGE

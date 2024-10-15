@@ -30,7 +30,7 @@ bio: My research interests focus on exploring novel optical materials and photon
 # Interests to show in About widget
 interests:
   - Electro-optics
-  - Free Space Optical Communication
+  - Free Space Optics
   - Nanotechnology
 
 # Education to show in About widget
