@@ -67,7 +67,7 @@ sections:
           company_url: 'https://drexel.edu/engineering/'
           company_logo: drexel-university
           location: Philadelphia, PA
-          date_start: '2024-04'
+          date_start: '2024-04-22'
           date_end: ''
           description: 'Developing innovative hyperspectral imaging system able to capture images in visible spectrum and beyond. Programming autonomous vehicle decision making using color filtering and image segmentation. Creating H-PDLCs (Holographic Polymer Dispersed Liquid Crystals) as switchable Bragg grating structures to enhance chemical trace detection system'
         - title: Research Engineer Co-op
@@ -75,16 +75,16 @@ sections:
           company_url: 'https://www.lockheedmartin.com/en-us/index.html'
           company_logo: Lockheed_Martin_logo
           location: Cherry Hill, NJ
-          date_start: '2023-09'
-          date_end: '2024-03'
+          date_start: '2023-09-19'
+          date_end: '2024-03-23'
           description: 'Researching state-of-the-art defense technology at Advanced Technology Labs, Spectral Systems Laboratory. Developing novel convolutional neural network systems to enhance object tracking. Innovating RF communication solution for MIMO system. Researching watermarking techniques and waveform encryption, with GAN encoders.'
         - title: Power Systems Engineering Co-op
           company: Lockheed Martin
           company_url: 'https://www.lockheedmartin.com/en-us/index.html'
           company_logo: Lockheed_Martin_logo
           location: Moorestown, NJ
-          date_start: '2022-09'
-          date_end: '2023-03'
+          date_start: '2022-09-21'
+          date_end: '2023-03-22'
           description: 'Collaborated as member of tiger team to optimize Space Fence radar sensitivity, and create alternate circuit capabilities. Performed testing and analysis of transmit hardware to enhance Space Fence radar for low earth orbit object tracking. Enhanced ASEV (Aegis System Equipped Vessels) radar processor power supply and input filter for calibration. Traveled to Space Fence radar site on Kwajalein Atoll to perform testing on transmit assembly and power hardware.'
     design:
       columns: '2'
@@ -103,7 +103,7 @@ sections:
       items:
         - certificate_url: ''
           date_end: ''
-          date_start: '2024-03'
+          date_start: '2024-03-24'
           description: ''
           icon: drexel-university
           organization: Drexel University
