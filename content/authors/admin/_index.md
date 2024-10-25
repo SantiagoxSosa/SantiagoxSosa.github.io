@@ -45,14 +45,14 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-# skills:
-#   - name: Technical
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 80
-#         icon: python
-#         icon_pack: fab
+skills:
+  - name: Technical
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: python
+        icon_pack: fab
 #       - name: Data Science
 #         description: ''
 #         percent: 100
@@ -90,7 +90,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:santisosap@gmail.com'
   # - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     # icon_pack: fas
     # link: https://scholar.google.it/citations?user=upy1OLEAAAAJ&hl=it
@@ -102,7 +102,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/S.Sosa_CV_7.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
