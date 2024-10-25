@@ -42,42 +42,50 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+  # - block: skills
+  #   content:
+  #     title: Skills
+  #     text: ''
+  #     # Choose a user to display skills from (a folder name within `content/authors/`)
+  #     username: admin
+  #   design:
+  #     columns: '1'
   - block: experience
     content:
       title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
+      date_format: Oct 2024
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Postdoctoral Research Fellow
-          company: University of Exeter 
-          company_url: ''
-          company_logo: org-gc
-          location: Exeter, UK
-          date_start: '2021-01-06'
+        - title: Undergraduate Research Fellow
+          company: Drexel University 
+          company_url: 'https://drexel.edu/engineering/'
+          company_logo: drexel-university
+          location: Philadelphia, PA
+          date_start: '2024-04'
           date_end: ''
-          description: 'Postdoctoral research fellow in the EPSRC project EP/V005995/1: Hopf-Galois Theory and Skew Braces (PI: Nigel Byott).'
-        - title: Postdoctoral Researcher in Mathematics
-          company: Vrije Universiteit Brussel
-          company_url: ''
-          company_logo: org-x
-          location: Brussels, Belgium
-          date_start: '2019-10-01'
-          date_end: '2021-02-28'
-          description: 'Studied algebraic structures associated with discrete versions of some equations in mathematical physics, such as the Yang-Baxter equation and the Pentagon equation. In particular, we obtained a complete classification of all involutive solutions to the PE.'
+          description: 'Developing innovative hyperspectral imaging system able to capture images in visible spectrum and beyond. Programming autonomous vehicle decision making using color filtering and image segmentation. Creating H-PDLCs (Holographic Polymer Dispersed Liquid Crystals) as switchable Bragg grating structures to enhance chemical trace detection system'
+        - title: Research Engineer Co-op
+          company: Lockheed Martin
+          company_url: 'https://www.lockheedmartin.com/en-us/index.html'
+          company_logo: Lockheed_Martin_logo
+          location: Cherry Hill, NJ
+          date_start: '2023-09'
+          date_end: '2024-03'
+          description: 'Researching state-of-the-art defense technology at Advanced Technology Labs, Spectral Systems Laboratory. Developing novel convolutional neural network systems to enhance object tracking. Innovating RF communication solution for MIMO system. Researching watermarking techniques and waveform encryption, with GAN encoders.'
+        - title: Power Systems Engineering Co-op
+          company: Lockheed Martin
+          company_url: 'https://www.lockheedmartin.com/en-us/index.html'
+          company_logo: Lockheed_Martin_logo
+          location: Moorestown, NJ
+          date_start: '2022-09'
+          date_end: '2023-03'
+          description: 'Collaborated as member of tiger team to optimize Space Fence radar sensitivity, and create alternate circuit capabilities. Performed testing and analysis of transmit hardware to enhance Space Fence radar for low earth orbit object tracking. Enhanced ASEV (Aegis System Equipped Vessels) radar processor power supply and input filter for calibration. Traveled to Space Fence radar site on Kwajalein Atoll to perform testing on transmit assembly and power hardware.'
     design:
       columns: '2'
   - block: accomplishments
@@ -86,65 +94,65 @@ sections:
       title: 'Accomplish&shy;ments'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
+      date_format: Oct 2024
       # Accomplishments.
       #   Add/remove as many `item` blocks below as you like.
       #   `title`, `organization`, and `date_start` are the required parameters.
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2024-03'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          icon: drexel-university
+          organization: Drexel University
+          organization_url: https://drexel.edu
+          title: SuperNova Undergraduate Research Fellow
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+        # - certificate_url: https://www.edx.org
+        #   date_end: ''
+        #   date_start: '2021-01-01'
+        #   description: Formulated informed blockchain models, hypotheses, and use cases.
+        #   icon: edx
+        #   organization: edX
+        #   organization_url: https://www.edx.org
+        #   title: Blockchain Fundamentals
+        #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+        # - certificate_url: https://www.datacamp.com
+        #   date_end: '2020-12-21'
+        #   date_start: '2020-07-01'
+        #   description: ''
+        #   icon: datacamp
+        #   organization: DataCamp
+        #   organization_url: https://www.datacamp.com
+        #   title: 'Object-Oriented Programming in R'
+        #   url: ''
+  #   design:
+  #     columns: '2'
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
     design:
       # Choose a layout view
       view: compact
@@ -212,7 +220,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Presentations / Speakings
       filters:
         folders:
           - event
@@ -230,39 +238,38 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Don't hesitate to contact me for any matter! Email is preferred, pictures of nature are encouraged.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      email: santisosap@gmail.com
+      phone: +1 717 808 0030
+      # appointment_url: 'https://calendly.com'
+      # address:
+      #   street: 450 Serra Mall
+      #   city: Stanford
+      #   region: CA
+      #   postcode: '94305'
+      #   country: United States
+      #   country_code: US
+      # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      # office_hours:
+      #   - 'I don''
       # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+      # coordinates:
+      #   latitude: '37.4275'
+      #   longitude: '-122.1697'  
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+        # - icon: twitter
+        #   icon_pack: fab
+        #   name: DM Me
+        #   link: 'https://twitter.com/Twitter'
+        # - icon: skype
+        #   icon_pack: fab
+        #   name: Skype Me
+        #   link: 'skype:echo123?call'
+        # - icon: video
+        #   icon_pack: fas
+        #   name: Zoom Me
+        #   link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
