@@ -102,8 +102,8 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: ''
-          date_end: ''
-          date_start: '2024-03-24'
+          date_end: '2024-03-24'
+          date_start: '2024-09-20'
           description: ''
           icon: drexel-university
           organization: Drexel University
@@ -174,8 +174,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Imaging Systems
+          tag: Imaging Systems
         - name: Other
           tag: Demo
     design:
