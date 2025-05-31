@@ -3,59 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santiago Sosa - Electrical & Computer Engineering</title>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 2rem;
-            align-items: center;
-        }
-
-        .profile-image img {
-            width: 100%;
-            height: auto;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-
-        @media (max-width: 768px) {
-            .about-grid {
-                grid-template-columns: 1fr;
-                text-align: center;
-                gap: 1.5rem;
-            }
-            
-            .profile-image {
-                order: -1;
-                max-width: 200px;
-                margin: 0 auto;
-            }
-            
-            .about-text {
-                font-size: 0.9rem;
-                line-height: 1.5;
-            }
-            
-            .section {
-                padding: 2rem 1rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .profile-image {
-                max-width: 150px;
-            }
-            
-            .about-text {
-                font-size: 0.85rem;
-            }
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
         * {
             margin: 0;
             padding: 0;
@@ -76,6 +26,7 @@
             padding: 0 2rem;
         }
 
+        /* Navigation */
         .nav {
             position: fixed;
             top: 0;
@@ -124,10 +75,7 @@
             position: relative;
         }
 
-        .nav-links a:hover {
-            color: #ff6b6b;
-        }
-
+        .nav-links a:hover,
         .nav-links a.active {
             color: #ff6b6b;
         }
@@ -157,6 +105,7 @@
             cursor: pointer;
         }
 
+        /* Hero Section */
         .hero-section {
             min-height: 100vh;
             display: flex;
@@ -196,6 +145,7 @@
             line-height: 1.7;
         }
 
+        /* Sections */
         .section {
             padding: 8rem 0;
             position: relative;
@@ -216,6 +166,7 @@
             font-family: 'Space Grotesk', sans-serif;
         }
 
+        /* About Section */
         .about-grid {
             display: grid;
             grid-template-columns: 400px 1fr;
@@ -238,6 +189,14 @@
             font-family: 'JetBrains Mono', monospace;
             box-shadow: 0 25px 80px rgba(0, 0, 0, 0.15);
             border: 3px solid #1a1a1a;
+            overflow: hidden;
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 17px;
         }
 
         .about-text {
@@ -251,6 +210,7 @@
             margin-bottom: 2rem;
         }
 
+        /* Inspiration Section */
         .inspiration-section {
             text-align: center;
         }
@@ -317,6 +277,44 @@
             font-weight: 500;
         }
 
+        /* Research Section */
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 4rem;
+            margin-top: 4rem;
+        }
+
+        .research-item {
+            padding: 2.5rem;
+            background: rgba(26, 26, 26, 0.03);
+            border-radius: 15px;
+            border: 2px solid rgba(26, 26, 26, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .research-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .research-item h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .research-item p {
+            font-size: 1rem;
+            color: #4a4a4a;
+            line-height: 1.8;
+            font-weight: 500;
+        }
+
+        /* Projects Section */
         .projects-section {
             background: #1a1a1a;
             color: white;
@@ -326,7 +324,7 @@
             color: white;
         }
 
-        .projects-section p {
+        .projects-section > .container > p {
             font-size: 1.3rem;
             color: #bbb;
             text-align: center;
@@ -389,6 +387,12 @@
             background: rgba(255, 255, 255, 0.05);
             border-radius: 15px;
             border: 2px solid rgba(255, 107, 107, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(255, 107, 107, 0.2);
         }
 
         .project-card h4 {
@@ -417,6 +421,7 @@
             font-weight: 500;
         }
 
+        /* CTA Section */
         .cta-section {
             text-align: center;
             padding: 6rem 0;
@@ -454,37 +459,8 @@
             box-shadow: 0 15px 35px rgba(255, 107, 107, 0.3);
         }
 
-        .research-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 4rem;
-            margin-top: 4rem;
-        }
-
-        .research-item {
-            padding: 2.5rem;
-            background: rgba(26, 26, 26, 0.03);
-            border-radius: 15px;
-            border: 2px solid rgba(26, 26, 26, 0.1);
-        }
-
-        .research-item h3 {
-            font-size: 1.6rem;
-            font-weight: 700;
-            color: #1a1a1a;
-            margin-bottom: 1.2rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .research-item p {
-            font-size: 1rem;
-            color: #4a4a4a;
-            line-height: 1.8;
-            font-weight: 500;
-        }
-
-            @media (max-width: 968px) {
+        /* Mobile Responsiveness */
+        @media (max-width: 968px) {
             .nav-container {
                 padding: 0 1rem;
             }
@@ -499,6 +475,7 @@
                 flex-direction: column;
                 padding: 2rem;
                 gap: 1.5rem;
+                border-top: 1px solid rgba(255, 107, 107, 0.3);
             }
             
             .nav-links.active {
@@ -547,18 +524,86 @@
             }
         }
 
-        @media (max-width: 600px) {
-            .hero-content h1 {
-                font-size: 2.8rem;
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 2rem;
+            }
+            
+            .profile-image {
+                height: 300px;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+            
+            .about-text {
+                font-size: 0.9rem;
+                line-height: 1.5;
             }
             
             .section {
                 padding: 4rem 0;
             }
+        }
+
+        @media (max-width: 600px) {
+            .hero-content h1 {
+                font-size: 2.8rem;
+                letter-spacing: -1px;
+            }
+            
+            .hero-content .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .hero-content .tagline {
+                font-size: 1rem;
+            }
             
             .section h2 {
                 font-size: 2.2rem;
             }
+            
+            .inspiration-section p {
+                font-size: 1.5rem;
+            }
+            
+            .profile-image {
+                height: 250px;
+                max-width: 250px;
+                font-size: 4rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 0.5rem;
+            }
+            
+            .hero-content h1 {
+                font-size: 2.2rem;
+            }
+            
+            .section {
+                padding: 3rem 0;
+            }
+            
+            .section h2 {
+                font-size: 1.8rem;
+            }
+        }
+
+        /* Smooth animations */
+        .section {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
     </style>
 </head>
@@ -567,13 +612,12 @@
         <div class="nav-container">
             <div class="nav-logo">Santiago Sosa</div>
             <ul class="nav-links">
-                <li><a href="#about" class="active">About</a></li>
-                <li><a href="projects.html">Projects & Publications</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about" class="nav-link active">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <button class="mobile-menu-toggle">☰</button>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
         </div>
     </nav>
 
@@ -590,7 +634,7 @@
             <h2>About me</h2>
             <div class="about-grid">
                 <div class="profile-image">
-                    <img src="assets/images/profilepicture.jpg" alt="Profile picture" />
+                    <img src="assets/images/profilepicture.jpg" alt="Santiago Sosa Profile Picture" onerror="this.style.display='none'; this.parentElement.innerHTML='SS'" />
                 </div>
                 <div class="about-text">
                     <p>In June 2026, I will be completing my Bachelor's/Master's degree in Electrical Engineering (ECE) at Drexel University as part of the BS/MS program. My academic focus is on advancing my knowledge in areas such as robotics, optics, and embedded systems, and I am eager to pursue a PhD in one of these fields to further develop my expertise.</p>
@@ -610,16 +654,16 @@
             
             <div class="inspiration-grid">
                 <div class="inspiration-card">
-                    <div class="inspiration-image">📊</div>
+                    <div class="inspiration-image">🎨</div>
                     <h3>My Grandmother</h3>
-                    <div class="role">Founder</div>
+                    <div class="role">Artist & Founder</div>
                     <p>My grandma is an artist and I will showcase her work here. Her creativity and dedication to her craft have deeply influenced my approach to innovation and problem-solving.</p>
                 </div>
                 
                 <div class="inspiration-card">
-                    <div class="inspiration-image">👨‍🏫</div>
+                    <div class="inspiration-image">👨‍🔬</div>
                     <h3>Dr. Adam Fontecchio</h3>
-                    <div class="role">Academic Father</div>
+                    <div class="role">Academic Mentor</div>
                     <p>He is currently my academic father, guiding my research in optics and photonics. His mentorship has been instrumental in shaping my understanding of advanced optical systems.</p>
                 </div>
                 
@@ -633,7 +677,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="research">
         <div class="container">
             <h2>Research & Expertise</h2>
             <div class="research-grid">
@@ -660,7 +704,7 @@
         </div>
     </section>
 
-    <section class="section projects-section">
+    <section class="section projects-section" id="projects">
         <div class="container">
             <h2>It all starts with an idea...</h2>
             <p>Here is what I most recently have been working on!</p>
@@ -702,11 +746,11 @@
         </div>
     </section>
 
-    <section class="section cta-section">
+    <section class="section cta-section" id="contact">
         <div class="container">
             <h2>Let's Build the Future Together</h2>
             <p>I welcome connections for collaborations, research opportunities, consulting projects, and meaningful conversations on innovation, technology, and personal growth.</p>
-            <a href="#" class="cta-button">Get in Touch</a>
+            <a href="mailto:contact@santiagososa.com" class="cta-button">Get in Touch</a>
         </div>
     </section>
 
@@ -715,9 +759,18 @@
         const mobileToggle = document.querySelector('.mobile-menu-toggle');
         const navLinks = document.querySelector('.nav-links');
         
-        mobileToggle?.addEventListener('click', () => {
-            navLinks?.classList.toggle('active');
-        });
+        if (mobileToggle && navLinks) {
+            mobileToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+
+            // Close mobile menu when clicking on a link
+            navLinks.addEventListener('click', (e) => {
+                if (e.target.tagName === 'A') {
+                    navLinks.classList.remove('active');
+                }
+            });
+        }
 
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -725,44 +778,92 @@
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
+                    const offset = 80; // Account for fixed nav
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
                     });
                 }
             });
         });
 
-        // Smooth scrolling and subtle animations
+        // Intersection Observer for animations
         const observerOptions = {
             threshold: 0.1,
-            rootMargin: '0px 0px -100px 0px'
+            rootMargin: '0px 0px -50px 0px'
         };
 
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
+                    entry.target.classList.add('visible');
                 }
             });
         }, observerOptions);
 
-        // Initialize animations
+        // Observe all sections
         document.querySelectorAll('.section').forEach(section => {
-            section.style.opacity = '0';
-            section.style.transform = 'translateY(30px)';
-            section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
             observer.observe(section);
         });
 
-        // Parallax effect for hero
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const hero = document.querySelector('.hero-section');
-            if (hero) {
-                hero.style.transform = `translateY(${scrolled * 0.2}px)`;
+        // Active navigation link highlighting
+        const navLinksArray = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('.section[id]');
+
+        function updateActiveNavLink() {
+            const scrollPosition = window.scrollY + 100;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    navLinksArray.forEach(link => link.classList.remove('active'));
+                    const activeLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
+                    if (activeLink) {
+                        activeLink.classList.add('active');
+                    }
+                }
+            });
+        }
+
+        // Throttled scroll event for performance
+        let ticking = false;
+        function handleScroll() {
+            if (!ticking) {
+                requestAnimationFrame(() => {
+                    updateActiveNavLink();
+                    ticking = false;
+                });
+                ticking = true;
             }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Parallax effect for hero (performance optimized)
+        let heroParallaxTicking = false;
+        function updateHeroParallax() {
+            if (!heroParallaxTicking) {
+                requestAnimationFrame(() => {
+                    const scrolled = window.pageYOffset;
+                    const hero = document.querySelector('.hero-section');
+                    if (hero && scrolled < window.innerHeight) {
+                        hero.style.transform = `translateY(${scrolled * 0.2}px)`;
+                    }
+                    heroParallaxTicking = false;
+                });
+                heroParallaxTicking = true;
+            }
+        }
+
+        window.addEventListener('scroll', updateHeroParallax);
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', () => {
+            updateActiveNavLink();
         });
     </script>
 </body>
