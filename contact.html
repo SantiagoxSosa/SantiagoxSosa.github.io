@@ -1,38 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Santiago Sosa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Santiago X. Sosa</title>
+    <meta name="description" content="Let's build something. Direct links to reach Santiago Sosa." />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">Santiago Sosa</a>
-            <ul class="nav-links">
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-                <li><a href="assets/Santiago_Sosa_CV.pdf" class="cv-link" target="_blank">CV</a></li>
-            </ul>
-            <button class="mobile-menu-toggle">☰</button>
-        </div>
-    </nav>
 
-    <main>
-        <section class="hero-section">
-            <div class="hero-content">
-                <h1>Contact</h1>
-                <div class="tagline">Let's build the future together</div>
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">S. Sosa</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="assets/Santiago_Sosa_CV.pdf">CV</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+
+    <section class="contact-wrap">
+        <div class="container">
+            <h1 class="contact-heading">Let&rsquo;s build <em>something</em>.</h1>
+            <div class="contact-sub">Philadelphia · Remote · Everywhere in between</div>
+
+            <div class="contact-cols">
+
+                <div class="contact-col">
+                    <div class="section-label">Open To</div>
+                    <p class="contact-intro">
+                        Research collaborations in optics, biosensing, or signal processing. Consulting on hardware and embedded systems. Long conversations about endurance training, nutrition, and the shape of a well-lived week. Coffee — especially if you&rsquo;re in Philadelphia or passing through.
+                    </p>
+                    <p class="contact-intro" style="margin-top: 20px;">
+                        If you&rsquo;re working on something hard and useful, I want to hear about it.
+                    </p>
+                </div>
+
+                <div class="contact-col">
+                    <div class="section-label">Direct Lines</div>
+                    <ul class="contact-links">
+
+                        <li>
+                            <a href="mailto:santisosap@gmail.com" class="contact-link">
+                                <div class="contact-link-label">Email</div>
+                                <div class="contact-link-value">santisosap@gmail.com</div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/santiagoxsosa" class="contact-link">
+                                <div class="contact-link-label">LinkedIn</div>
+                                <div class="contact-link-value">/in/santiagoxsosa</div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/SantiagoxSosa" class="contact-link">
+                                <div class="contact-link-label">GitHub</div>
+                                <div class="contact-link-value">@SantiagoxSosa</div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://scholar.google.com" class="contact-link">
+                                <div class="contact-link-label">Google Scholar</div>
+                                <div class="contact-link-value">Santiago Sosa</div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
             </div>
-        </section>
-        
-        <!-- Add your contact content here -->
-    </main>
+        </div>
+    </section>
 
-    <script src="js/main.js"></script>
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <div>© 2026 Santiago Sosa</div>
+        <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/santiagoxsosa">LinkedIn</a></li>
+            <li><a href="https://github.com/SantiagoxSosa">GitHub</a></li>
+            <li><a href="https://scholar.google.com">Scholar</a></li>
+            <li><a href="mailto:santisosap@gmail.com">Email</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>

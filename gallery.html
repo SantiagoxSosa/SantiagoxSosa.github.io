@@ -1,38 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - Santiago Sosa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery — Santiago X. Sosa</title>
+    <meta name="description" content="A visual record of the work and the life in between." />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">Santiago Sosa</a>
-            <ul class="nav-links">
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="gallery.html" class="active">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="assets/Santiago_Sosa_CV.pdf" class="cv-link" target="_blank">CV</a></li>
-            </ul>
-            <button class="mobile-menu-toggle">☰</button>
+
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">S. Sosa</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="assets/Santiago_Sosa_CV.pdf">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-label">— Gallery</div>
+            <h1>A visual record of the <em>work</em> and the life in between.</h1>
+            <p class="page-hero-sub">
+                Lab benches, race courses, passport stamps, prototypes. Everything that didn&rsquo;t fit into a paper or a repo.
+            </p>
         </div>
-    </nav>
+    </section>
 
-    <main>
-        <section class="hero-section">
-            <div class="hero-content">
-                <h1>Gallery</h1>
-                <div class="tagline">Visual journey through my work and experiences</div>
-            </div>
-        </section>
-        
-        <!-- Add your gallery content here -->
-    </main>
+    <section class="container">
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="research">Research</button>
+            <button class="filter-btn" data-filter="athletics">Athletics</button>
+            <button class="filter-btn" data-filter="travel">Travel</button>
+            <button class="filter-btn" data-filter="builds">Builds</button>
+        </div>
 
-    <script src="js/main.js"></script>
+        <div class="masonry">
+            <div class="masonry-item ar-4-5" data-category="research">Research · HPDLC sample</div>
+            <div class="masonry-item ar-1-1" data-category="athletics">Athletics · Brick workout</div>
+            <div class="masonry-item ar-3-4" data-category="travel">Travel · Cartagena, 2024</div>
+            <div class="masonry-item ar-16-9" data-category="builds">Builds · Analog 1090 MHz receiver</div>
+            <div class="masonry-item ar-2-3" data-category="research">Research · NIR bench</div>
+            <div class="masonry-item ar-1-1" data-category="travel">Travel · Kyoto, 2023</div>
+            <div class="masonry-item ar-4-5" data-category="athletics">Athletics · Half Ironman, Atlantic City</div>
+            <div class="masonry-item ar-3-2" data-category="builds">Builds · FPGA breadboard</div>
+            <div class="masonry-item ar-3-4" data-category="research">Research · Optics lab, late night</div>
+            <div class="masonry-item ar-1-1" data-category="travel">Travel · Medellín rooftop</div>
+            <div class="masonry-item ar-4-5" data-category="athletics">Athletics · Open-water swim</div>
+            <div class="masonry-item ar-2-3" data-category="builds">Builds · Desk, mid-prototype</div>
+            <div class="masonry-item ar-16-9" data-category="travel">Travel · Patagonia ridgeline</div>
+            <div class="masonry-item ar-3-4" data-category="research">Research · Interferometer alignment</div>
+            <div class="masonry-item ar-1-1" data-category="builds">Builds · PCB v0.3</div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <div>© 2026 Santiago Sosa</div>
+        <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/santiagoxsosa">LinkedIn</a></li>
+            <li><a href="https://github.com/SantiagoxSosa">GitHub</a></li>
+            <li><a href="https://scholar.google.com">Scholar</a></li>
+            <li><a href="mailto:santisosap@gmail.com">Email</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>

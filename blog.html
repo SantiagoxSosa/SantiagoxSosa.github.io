@@ -1,38 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Santiago Sosa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog — Santiago X. Sosa</title>
+    <meta name="description" content="Thoughts on engineering, endurance, and the edges of what's possible." />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">Santiago Sosa</a>
-            <ul class="nav-links">
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html" class="active">Blog</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="assets/Santiago_Sosa_CV.pdf" class="cv-link" target="_blank">CV</a></li>
-            </ul>
-            <button class="mobile-menu-toggle">☰</button>
+
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">S. Sosa</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="assets/Santiago_Sosa_CV.pdf">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-label">— Writing</div>
+            <h1>Thoughts on engineering, endurance, and the <em>edges</em> of what&rsquo;s possible.</h1>
+            <p class="page-hero-sub">
+                An irregular log of what I&rsquo;m learning in the lab, on the road, and in the markets. No cadence, no filler — published when something&rsquo;s worth saying.
+            </p>
         </div>
-    </nav>
+    </section>
 
-    <main>
-        <section class="hero-section">
-            <div class="hero-content">
-                <h1>Blog</h1>
-                <div class="tagline">Thoughts on engineering, research, and innovation</div>
-            </div>
-        </section>
-        
-        <!-- Add your blog content here -->
-    </main>
+    <section class="container" style="padding-bottom: 120px;">
+        <div class="section-label">Recent Posts</div>
 
-    <script src="js/main.js"></script>
+        <div class="blog-list">
+
+            <a href="#" class="post-card">
+                <div class="post-meta">
+                    <span class="post-meta-tag">Biophotonics</span>
+                    <span>Coming soon</span>
+                </div>
+                <div>
+                    <h2 class="post-title">Why Non-Invasive Glucose Monitoring is the Hardest Problem in Biosensing</h2>
+                    <p class="post-excerpt">
+                        A 40-year graveyard of failed startups, a crowded NIR spectrum, and the water-absorption problem nobody wants to talk about. Notes from inside the attempt.
+                    </p>
+                </div>
+                <div class="post-read">Read →</div>
+            </a>
+
+            <a href="#" class="post-card">
+                <div class="post-meta">
+                    <span class="post-meta-tag">Personal</span>
+                    <span>Coming soon</span>
+                </div>
+                <div>
+                    <h2 class="post-title">What Ironman Training Taught Me About Research Endurance</h2>
+                    <p class="post-excerpt">
+                        Hour eight on a trainer is a pretty good analog for month eight on a thesis. A short piece on volume, boredom, and why the middle is where all the work happens.
+                    </p>
+                </div>
+                <div class="post-read">Read →</div>
+            </a>
+
+            <a href="#" class="post-card">
+                <div class="post-meta">
+                    <span class="post-meta-tag">Finance / Software</span>
+                    <span>Coming soon</span>
+                </div>
+                <div>
+                    <h2 class="post-title">The Engineer&rsquo;s Guide to Prediction Markets</h2>
+                    <p class="post-excerpt">
+                        Prediction markets look a lot like sensor fusion if you squint. A primer on calibration, edge, and how to think about being paid to be right.
+                    </p>
+                </div>
+                <div class="post-read">Read →</div>
+            </a>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <div>© 2026 Santiago Sosa</div>
+        <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/santiagoxsosa">LinkedIn</a></li>
+            <li><a href="https://github.com/SantiagoxSosa">GitHub</a></li>
+            <li><a href="https://scholar.google.com">Scholar</a></li>
+            <li><a href="mailto:santisosap@gmail.com">Email</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>

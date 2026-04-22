@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research — Santiago X. Sosa</title>
+    <meta name="description" content="Non-invasive optical glucose monitoring, HPDLC filters, and published work on EDA and sympathetic arousal classification." />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">S. Sosa</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="research.html" class="active">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="assets/Santiago_Sosa_CV.pdf">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-label">— Research</div>
+            <h1>Light, <em>electronics</em>, and the body.</h1>
+            <p class="page-hero-sub">
+                My work centers on making optical sensing small, cheap, and tunable enough to live inside consumer devices — and making physiological signals legible enough to act on.
+            </p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="research-layout">
+
+            <aside class="research-sidebar">
+                <ul>
+                    <li><a href="#current">Current Research</a></li>
+                    <li><a href="#sift">SIFT Project</a></li>
+                    <li><a href="#thesis">Thesis</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#skills">Skills &amp; Tools</a></li>
+                </ul>
+            </aside>
+
+            <div class="research-content">
+
+                <section id="current">
+                    <div class="section-label">Current Research</div>
+                    <h2>Voltage-tunable optics for spectroscopic sensing</h2>
+                    <p>
+                        I work in the <strong>Drexel Optics &amp; Biophotonics Lab</strong> under <strong>Dr. Adam Fontecchio</strong>, developing holographic polymer-dispersed liquid crystal (HPDLC) filters for near-infrared spectroscopy. By modulating an external voltage, the diffraction condition of the HPDLC grating shifts — electronically scanning a narrow passband across the NIR window with no moving parts.
+                    </p>
+                    <p>
+                        The goal is deceptively simple: replace the bulky monochromators and broadband sources of traditional NIR spectroscopy with a thin film, a driver, and a photodiode.
+                    </p>
+                </section>
+
+                <section id="sift">
+                    <div class="section-label">SIFT — Flagship Project</div>
+                    <h2>Sugar Insight through Filter Technology</h2>
+                    <p>
+                        SIFT is a non-invasive optical glucose monitor built on HPDLC filters. The sensor steers a tunable NIR passband across the first-overtone glucose absorption feature near <strong>940 nm</strong>, extracts the differential signal, and maps it to interstitial glucose concentration.
+                    </p>
+                    <p>
+                        The design target: continuous glucose monitoring without needles, without consumables, and at a bill of materials that a teenager in Caracas can afford.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">HPDLC</span>
+                        <span class="tag">NIR Spectroscopy</span>
+                        <span class="tag">Glucose</span>
+                        <span class="tag">Hardware</span>
+                        <span class="tag">BLE</span>
+                    </div>
+                </section>
+
+                <section id="thesis">
+                    <div class="section-label">BS/MS Thesis</div>
+                    <h3>Voltage-tunable HPDLC filters for spectroscopic sensing applications</h3>
+                    <p>
+                        My thesis characterizes the voltage–wavelength response of Bragg-type HPDLC gratings, quantifies their switching speed and optical efficiency across the 800–1100 nm window, and benchmarks them against fixed-wavelength photodiode arrays for a glucose-sensing front end.
+                    </p>
+                    <p>
+                        Defense target: <strong>June 2026</strong>.
+                    </p>
+                </section>
+
+                <section id="publications">
+                    <div class="section-label">Publications</div>
+                    <h2>Peer-reviewed work</h2>
+
+                    <div class="pub-card">
+                        <div class="pub-header">
+                            <h3 class="pub-title">
+                                Classification of sympathetic nervous system arousal from electrodermal activity: a systematic review of multimodal biosignal approaches
+                            </h3>
+                            <div class="pub-meta">
+                                <span class="status-badge status-published">Published</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                        <p class="pub-abstract">
+                            Across 68 studies, we survey how electrodermal activity is paired with HRV, EEG, respiration, and motion to classify sympathetic arousal. We examine feature engineering choices, model families, and the reproducibility gap between lab-grade and wearable-grade signals — and argue for standardized reporting of arousal classification benchmarks.
+                        </p>
+                        <a href="#" class="pub-doi">DOI: 10.xxxx/xxxxxx →</a>
+                    </div>
+                </section>
+
+                <section id="skills">
+                    <div class="section-label">Skills &amp; Tools</div>
+                    <h2>The toolkit</h2>
+                    <p>
+                        The range is wide on purpose — a glucose monitor needs optics, a driver board, a BLE stack, and a signal-processing pipeline before anyone sees a number.
+                    </p>
+                    <div class="tag-list">
+                        <span class="tag">MATLAB</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Cadence Virtuoso</span>
+                        <span class="tag">FPGA / VHDL</span>
+                        <span class="tag">ROS</span>
+                        <span class="tag">Gazebo</span>
+                        <span class="tag">bleak (BLE)</span>
+                        <span class="tag">LaTeX</span>
+                        <span class="tag">Signal Processing</span>
+                        <span class="tag">Biophotonics</span>
+                        <span class="tag">Holography</span>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="cta-band">
+        <div class="container">
+            <div class="cta-band-inner">
+                <div class="cta-text">Interested in <em>collaborating</em> on optical sensing?</div>
+                <div class="cta-band-cta">
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <div>© 2026 Santiago Sosa</div>
+        <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/santiagoxsosa">LinkedIn</a></li>
+            <li><a href="https://github.com/SantiagoxSosa">GitHub</a></li>
+            <li><a href="https://scholar.google.com">Scholar</a></li>
+            <li><a href="mailto:santisosap@gmail.com">Email</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

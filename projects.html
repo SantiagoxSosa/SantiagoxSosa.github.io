@@ -1,38 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects & Publications - Santiago Sosa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects — Santiago X. Sosa</title>
+    <meta name="description" content="Projects across biophotonics, neuroscience, and finance — shipped and in-progress." />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">Santiago Sosa</a>
-            <ul class="nav-links">
-                <li><a href="projects.html" class="active">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="assets/Santiago_Sosa_CV.pdf" class="cv-link" target="_blank">CV</a></li>
-            </ul>
-            <button class="mobile-menu-toggle">☰</button>
+
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">S. Sosa</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="assets/Santiago_Sosa_CV.pdf">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-label">— Projects</div>
+            <h1>Things I&rsquo;ve <em>built</em>, broken, and shipped.</h1>
+            <p class="page-hero-sub">
+                A working archive of experiments across biophotonics, neuroscience, and markets. Some finished, some in progress, all stubbornly hands-on.
+            </p>
         </div>
-    </nav>
+    </section>
 
-    <main>
-        <section class="hero-section">
-            <div class="hero-content">
-                <h1>Projects & Publications</h1>
-                <div class="tagline">Exploring the intersection of engineering and innovation</div>
+    <section class="container" style="padding-bottom: 120px;">
+        <div class="section-label">All Work</div>
+
+        <div class="card-grid">
+
+            <article class="card">
+                <div class="project-tag">Biophotonics</div>
+                <h2 class="project-title">SIFT — Sugar Insight through Filter Technology</h2>
+                <p class="project-desc">
+                    Non-invasive optical glucose monitoring using voltage-tunable HPDLC filters in the NIR window.
+                </p>
+                <div class="card-footer">
+                    <span class="status-badge status-active">Active</span>
+                    <a href="research.html#sift" class="project-link">Read →</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="project-tag">Neuroscience</div>
+                <h2 class="project-title">EDA &amp; Sympathetic Arousal Classification</h2>
+                <p class="project-desc">
+                    Systematic review of 68 papers on multimodal biosignal approaches to classifying sympathetic nervous system arousal.
+                </p>
+                <div class="card-footer">
+                    <span class="status-badge status-published">Published</span>
+                    <a href="research.html#publications" class="project-link">Read →</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="project-tag">Finance</div>
+                <h2 class="project-title">Contrarian Stock Backtester</h2>
+                <p class="project-desc">
+                    A Python engine that tests mean-reversion on the biggest quarterly losers, built on Yahoo Finance data and a vectorized portfolio simulator.
+                </p>
+                <div class="card-footer">
+                    <span class="status-badge status-active">Active</span>
+                    <a href="#" class="project-link">Repo →</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="project-tag">Optics · Experiments</div>
+                <h2 class="project-title">HPDLC Characterization Rig</h2>
+                <p class="project-desc">
+                    Bench setup driving HPDLC samples across voltage sweeps while logging transmission spectra — the workbench behind SIFT.
+                </p>
+                <div class="card-footer">
+                    <span class="status-badge">Completed</span>
+                    <a href="research.html#current" class="project-link">Context →</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="cta-band">
+        <div class="container">
+            <div class="cta-band-inner">
+                <div class="cta-text">Have a problem worth <em>chasing</em>?</div>
+                <div class="cta-band-cta">
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                </div>
             </div>
-        </section>
-        
-        <!-- Add your projects content here -->
-    </main>
+        </div>
+    </section>
 
-    <script src="js/main.js"></script>
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <div>© 2026 Santiago Sosa</div>
+        <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/santiagoxsosa">LinkedIn</a></li>
+            <li><a href="https://github.com/SantiagoxSosa">GitHub</a></li>
+            <li><a href="https://scholar.google.com">Scholar</a></li>
+            <li><a href="mailto:santisosap@gmail.com">Email</a></li>
+        </ul>
+    </div>
+</footer>
+
+<script src="main.js"></script>
 </body>
 </html>

@@ -1,296 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santiago Sosa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santiago X. Sosa — Human · Engineer · Entrepreneur</title>
+    <meta name="description" content="Santiago Sosa — Fifth-year BS/MS candidate at Drexel working at the intersection of light, electronics, and matter." />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Instrument+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">Santiago Sosa</a>
-            <ul class="nav-links">
-                <li><a href="projects.html" class="nav-link">Projects</a></li>
-                <li><a href="blog.html" class="nav-link">Blog</a></li>
-                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
-                <li><a href="assets/Santiago_Sosa_CV.pdf" class="nav-link cv-link" target="_blank">CV</a></li>
-            </ul>
-            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
-        </div>
-    </nav>
 
-    <section class="hero-section">
-        <div class="hero-content">
-            <h1>Santiago Sosa</h1>
-            <div class="subtitle">Human | Engineer | Entrepreneur</div>
-            <div class="tagline">I believe in a world where technology is not feared, but embraced, equitable and accessible to all. A world far beyond our current comprehension of humanity. </div>
-        </div>
-    </section>
+<nav class="nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">S. Sosa</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="research.html">Research</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="assets/Santiago_Sosa_CV.pdf">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-    <section class="section" id="about">
+<main>
+
+    <section class="hero">
         <div class="container">
-            <h2>About me</h2>
-            <div class="about-grid">
-                <div class="profile-image">
-                    <img src="assets/images/profilepicture.jpg" alt="Santiago Sosa Profile Picture" onerror="this.style.display='none'; this.parentElement.innerHTML='SS'" />
-                </div>
-                <div class="about-text">
-                    <p>In June 2026, I will be completing my Bachelor's/Master's degree in Electrical Engineering (ECE) at Drexel University as part of the BS/MS program. My academic focus is on advancing my knowledge in areas such as optics, robotics, and embedded systems, and I am eager to soon pursue a PhD in advanced optics & nanophotonics.</p>
-                    
-                    <p>Currently, I am engaged in on-campus research, where I am contributing to projects that explore the integration of optics and signal processing for sensing applications by use of holographic films. This complements my prior experience at Lockheed Martin, where I worked on cutting-edge engineering solutions, gaining hands-on expertise in customer-facing research and development.</p>
-                    
-                    <p>In the future, I aim to deepen my understanding of electro-optics and nanophotonics, with the goal of innovating within the realm of intelligent robotics and optical sensor design. My ambition is to develop groundbreaking technologies that merge these fields to solve real-world challenges in industries such as healthcare, defense, and environmental monitoring.</p>
-                </div>
+            <div class="hero-eyebrow">Philadelphia, PA · ECE · Drexel University</div>
+            <h1 class="hero-name">
+                Santiago <span class="hero-name-accent">X. Sosa</span>
+            </h1>
+            <div class="hero-tagline">Human · Engineer · Entrepreneur</div>
+            <p class="hero-bio">
+                I build at the intersection of light, electronics, and matter. Fifth-year BS/MS candidate at Drexel, graduating June 2026. I believe technology should dissolve fear, not create it.
+            </p>
+            <div class="hero-ctas">
+                <a href="research.html" class="btn btn-primary">View Research</a>
+                <a href="assets/Santiago_Sosa_CV.pdf" class="btn-link">Download CV →</a>
             </div>
         </div>
     </section>
 
-    <section class="section inspiration-section">
+    <section class="container">
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Years at Drexel</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Published Review</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">11</div>
+                <div class="stat-label">Countries Visited</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">23</div>
+                <div class="stat-label">Years of Experience</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
         <div class="container">
-            <h2>Where I Come From...</h2>
-            <p>I stand on the shoulders of giants</p>
-            
-            <div class="inspiration-grid">
-                <div class="inspiration-card">
-                    <div class="inspiration-image">🎨</div>
-                    <h3>Corina Briceño</h3>
-                    <div class="role">Artist & Grandmother</div>
-                    <p>Corina is an artist and I will showcase her work here. Her unforgiving creativity and dedication to her craft have deeply influenced my approach to innovation and design.</p>
-                </div>
-                
-                <div class="inspiration-card">
-                    <div class="inspiration-image">
-                        <i class="fas fa-user-graduate"></i>
+            <div class="section-label">Featured Work</div>
+
+            <div class="projects-grid">
+
+                <article class="project-card project-featured">
+                    <div class="project-card-text">
+                        <div class="project-tag">Flagship · Biophotonics · 2025–Present</div>
+                        <h2 class="project-title">SIFT — Sugar Insight through Filter Technology</h2>
+                        <p class="project-desc">
+                            A non-invasive optical glucose sensor built on voltage-tunable HPDLC filters. Shifts the NIR passband electronically to resolve the glucose absorption signature near 940 nm — without needles, without consumables.
+                        </p>
+                        <a href="research.html#sift" class="project-link">Read more →</a>
                     </div>
-                    <h3>Dr. Adam Fontecchio</h3>
-                    <div class="role">Academic Mentor</div>
-                    <p>Its a gift to share work with brilliant people. It's a blessing to call on your mentor. A testament that there is plenty of cake for everyone, but that fortune will always favor the bold.</p>
+
+                    <div class="viz" aria-hidden="true">
+                        <div class="viz-label"><span>HPDLC Transmission</span><span>NIR</span></div>
+                        <div class="viz-bars">
+                            <div class="viz-bar" style="height: 18%"></div>
+                            <div class="viz-bar" style="height: 24%"></div>
+                            <div class="viz-bar" style="height: 32%"></div>
+                            <div class="viz-bar" style="height: 41%"></div>
+                            <div class="viz-bar" style="height: 55%"></div>
+                            <div class="viz-bar" style="height: 68%"></div>
+                            <div class="viz-bar viz-bar-peak" style="height: 82%"></div>
+                            <div class="viz-bar viz-bar-peak" style="height: 94%"></div>
+                            <div class="viz-bar viz-bar-peak" style="height: 88%"></div>
+                            <div class="viz-bar" style="height: 64%"></div>
+                            <div class="viz-bar" style="height: 48%"></div>
+                            <div class="viz-bar" style="height: 36%"></div>
+                            <div class="viz-bar" style="height: 28%"></div>
+                            <div class="viz-bar" style="height: 22%"></div>
+                            <div class="viz-bar" style="height: 16%"></div>
+                        </div>
+                        <div class="viz-x"><span>800 nm</span><span>940 nm</span><span>1100 nm</span></div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-text">
+                        <div class="project-tag">Published Systematic Review · Neuroscience</div>
+                        <h2 class="project-title">EDA &amp; Sympathetic Arousal Classification</h2>
+                        <p class="project-desc">
+                            A systematic review of 68 papers on electrodermal activity and sympathetic nervous system arousal — how multimodal biosignals and ML converge on a reliable arousal index.
+                        </p>
+                        <a href="research.html#publications" class="project-link">View publication →</a>
+                    </div>
+                    <div class="project-card-text">
+                        <div class="project-tag">Status</div>
+                        <h3 class="project-title" style="font-size: 28px;">Published · 2025</h3>
+                        <p class="project-desc" style="font-size: 15px;">
+                            Peer-reviewed, open access. Full citation and DOI available on the research page.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-label">Standing on Giants</div>
+
+            <p class="giants-quote">
+                &ldquo;I stand on the shoulders of giants.&rdquo;
+            </p>
+
+            <div class="giants-grid">
+                <div class="giant">
+                    <div class="giant-icon">✦</div>
+                    <div class="giant-name">Corina Briceño</div>
+                    <div class="giant-role">Artist &amp; Grandmother</div>
+                    <p class="giant-quote">&ldquo;Make things that outlast you.&rdquo;</p>
                 </div>
-                
-                <div class="inspiration-card">
-                    <div class="inspiration-image">🌱</div>
-                    <h3>Alexander Palencia</h3>
-                    <div class="role">Entrepreneur & Uncle</div>
-                    <p>If a pirate met a cowboy, it would be my Uncle. Few play the game well enough that they can walk with Kings nor lose the common touch. Alex can. A man who knows damn well what he is worth.</p>
+
+                <div class="giant">
+                    <div class="giant-icon">✦</div>
+                    <div class="giant-name">Dr. Adam Fontecchio</div>
+                    <div class="giant-role">Academic Mentor</div>
+                    <p class="giant-quote">&ldquo;The best science is done in service of someone.&rdquo;</p>
+                </div>
+
+                <div class="giant">
+                    <div class="giant-icon">✦</div>
+                    <div class="giant-name">Alexander Palencia</div>
+                    <div class="giant-role">Entrepreneur &amp; Uncle</div>
+                    <p class="giant-quote">&ldquo;Build what the world is too afraid to try.&rdquo;</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section featured-research" id="research">
+    <section class="cta-band">
         <div class="container">
-            <div class="featured-project">
-                <div class="project-image-container">
-                    <img src="assets/images/quantum-schedule.jpg" alt="Quantum Information Research" class="featured-image">
-                </div>
-                <div class="project-info">
-                    <h2>RESEARCH</h2>
-                    <p>BLAH BLAH BLASH SEARCHING AGAIN HAHA RESEARCH.</p>
-                    <a href="https://your-research-site.com" target="_blank" class="research-link">
-                        <span>Publications</span>
-                        <span class="arrow">→</span>
-                    </a>
+            <div class="cta-band-inner">
+                <div class="cta-text">Let&rsquo;s build something <em>extraordinary</em> together.</div>
+                <div class="cta-band-cta">
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section projects-section" id="projects">
-        <div class="container">
-            <h2>It all starts with an idea...</h2>
-            <p>Here is what I most recently have been working on!</p>
-            
-            <div class="project-hero">
-                <div class="project-image">
-                    <i class="fas fa-microscope"></i>
-                </div>
-                <div class="project-content">
-                    <h3>SIFT: Sugar Insight through Filter Technology</h3>
-                    <p>Non-invasive optical glucose monitoring using HPDLC technology, targeted toward continuous glucose monitoring innovations. This project combines expertise in optics and biomedical applications to create accessible health monitoring solutions.</p>
-                    <p>The system leverages advanced holographic polymer-dispersed liquid crystals to create a breakthrough in non-invasive medical sensing, potentially revolutionizing diabetes management worldwide.</p>
-                </div>
-            </div>
-            
-            <div class="project-grid">
-                <div class="project-card">
-                    <h4>UAV Decision-Making Frameworks</h4>
-                    <div class="year">2024 - Present</div>
-                    <p>Developing robust algorithms to guide unmanned aerial vehicles under adverse weather conditions using ROS, Gazebo simulations, and reinforcement learning techniques.</p>
-                </div>
-                
-                <div class="project-card">
-                    <h4>Optical Computing Simulations</h4>
-                    <div class="year">2024 - Present</div>
-                    <p>Research collaboration on optical Fourier transforms and convolution techniques, exploring parallel processing using wavelength-division multiplexing.</p>
-                </div>
-                
-                <div class="project-card">
-                    <h4>Analog Radio Construction</h4>
-                    <div class="year">2023 - 2024</div>
-                    <p>Designing and hand-building a purely analog radio receiver tuned to 1090 MHz to demonstrate ADS-B aviation signals.</p>
-                </div>
-                
-                <div class="project-card">
-                    <h4>Independent Consulting</h4>
-                    <div class="year">2023 - Present</div>
-                    <p>Leading consulting projects for small businesses focusing on software development, data analytics, web development, and marketing strategy.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+</main>
 
-    <section class="section cta-section" id="contact">
-        <div class="container">
-            <h2>Let's Build the Future Together</h2>
-            <p>I welcome connections for collaborations, research opportunities, consulting projects, and meaningful conversations on innovation, technology, and personal growth.</p>
-            <a href="mailto:contact@santiagososa.com" class="cta-button">Get in Touch</a>
-        </div>
-    </section>
+<footer class="footer">
+    <div class="container footer-inner">
+        <div>© 2026 Santiago Sosa</div>
+        <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/santiagoxsosa">LinkedIn</a></li>
+            <li><a href="https://github.com/SantiagoxSosa">GitHub</a></li>
+            <li><a href="https://scholar.google.com">Scholar</a></li>
+            <li><a href="mailto:santisosap@gmail.com">Email</a></li>
+        </ul>
+    </div>
+</footer>
 
-    <script>
-        // Mobile menu toggle
-        const mobileToggle = document.querySelector('.mobile-menu-toggle');
-        const navLinks = document.querySelector('.nav-links');
-        
-        if (mobileToggle && navLinks) {
-            mobileToggle.addEventListener('click', () => {
-                navLinks.classList.toggle('active');
-            });
-
-            // Close mobile menu when clicking on a link
-            navLinks.addEventListener('click', (e) => {
-                if (e.target.tagName === 'A') {
-                    navLinks.classList.remove('active');
-                }
-            });
-        }
-
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    const offset = 80; // Account for fixed nav
-                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
-        // Intersection Observer for animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
-
-        // Observe all sections
-        document.querySelectorAll('.section').forEach(section => {
-            observer.observe(section);
-        });
-
-        // Active navigation link highlighting
-        const navLinksArray = document.querySelectorAll('.nav-link');
-        const sections = document.querySelectorAll('.section[id]');
-
-        function updateActiveNavLink() {
-            const scrollPosition = window.scrollY + 100;
-
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.offsetHeight;
-                const sectionId = section.getAttribute('id');
-
-                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                    navLinksArray.forEach(link => link.classList.remove('active'));
-                    const activeLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
-                    if (activeLink) {
-                        activeLink.classList.add('active');
-                    }
-                }
-            });
-        }
-
-        // Throttled scroll event for performance
-        let ticking = false;
-        function handleScroll() {
-            if (!ticking) {
-                requestAnimationFrame(() => {
-                    updateActiveNavLink();
-                    ticking = false;
-                });
-                ticking = true;
-            }
-        }
-
-        window.addEventListener('scroll', handleScroll);
-
-        // Parallax effect for hero (performance optimized)
-        let heroParallaxTicking = false;
-        function updateHeroParallax() {
-            if (!heroParallaxTicking) {
-                requestAnimationFrame(() => {
-                    const scrolled = window.pageYOffset;
-                    const hero = document.querySelector('.hero-section');
-                    if (hero && scrolled < window.innerHeight) {
-                        hero.style.transform = `translateY(${scrolled * 0.2}px)`;
-                    }
-                    heroParallaxTicking = false;
-                });
-                heroParallaxTicking = true;
-            }
-        }
-
-        window.addEventListener('scroll', updateHeroParallax);
-
-        // Initialize page
-        document.addEventListener('DOMContentLoaded', () => {
-            updateActiveNavLink();
-        });
-    </script>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/santiagoxsosa" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <i class="fab fa-linkedin"></i>
-                        <span>LinkedIn</span>
-                    </a>
-                    <a href="https://github.com/SantiagoxSosa" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <i class="fab fa-github"></i>
-                        <span>GitHub</span>
-                    </a>
-                    <a href="https://scholar.google.com/citations?user=your-id" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span>Google Scholar</span>
-                    </a>
-                    <a href="mailto:your.email@drexel.edu" class="social-link">
-                        <i class="fas fa-envelope"></i>
-                        <span>Email</span>
-                    </a>
-                </div>
-                <div class="footer-info">
-                    <p>&copy; 2025 Santiago Sosa. All rights reserved.</p>
-                    <p>Electrical & Computer Engineering | Drexel University</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+<script src="main.js"></script>
 </body>
 </html>
